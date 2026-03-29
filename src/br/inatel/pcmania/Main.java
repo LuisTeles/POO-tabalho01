@@ -33,7 +33,15 @@ public class Main {
             option = input.nextInt();
 
             if (option == 0) {
-                break;
+                //Refatoração para garantir que a condição de 2..* do UML seja executada corretamente
+                // Verificando a regra UML do 2..*
+                if (cliente01.getTotalComputadores() < 2) {
+                    System.out.println("Atenção: A promoção exige a compra de no mínimo 2 computadores!");
+                    System.out.println("Você tem apenas " + cliente01.getTotalComputadores() + " no carrinho.\n");
+                    continue; // Pula o resto do loop e volta a pedir uma opção
+                } else {
+                    break; // Se tiver 2 ou mais, sai do loop e vai para o recibo
+                }
             }
 
             switch (option) {

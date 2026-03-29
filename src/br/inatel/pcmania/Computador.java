@@ -5,10 +5,9 @@ public class Computador {
     private float preco;
     private SistemaOperacional OS;
 
-    // CORREÇÃO 1: A declaração do array não leva o tamanho aqui
     private HardwareBasico[] hardware;
 
-    // Define o Atributo na classe Todo
+    // Define o Atributo na classe Principal (que não pode deixar de existir)
     private MemoriaUSB memoria;
 
     // Método que cria a agregação
@@ -16,7 +15,6 @@ public class Computador {
         this.memoria = musb;
     }
 
-    // CORREÇÃO 2: Removido 'HardwareBasico[] hardwareInicial' e adicionado as capacidades
     public Computador(String marca, float preco, String nomeOS, int tipoOS, float processadorCap, float ramCap, float hdCap) {
         this.marca = marca;
         this.preco = preco;
@@ -24,7 +22,7 @@ public class Computador {
         // Composição: o PC cria seu sistema operacional
         this.OS = new SistemaOperacional(nomeOS, tipoOS);
 
-        // CORREÇÃO 3: Inicialização correta do array com tamanho 3
+        // CORREÇÃO: Garante a composição entre hardware e computador
         this.hardware = new HardwareBasico[3];
         this.hardware[0] = new HardwareBasico("Processador", processadorCap);
         this.hardware[1] = new HardwareBasico("Memória RAM", ramCap);
@@ -57,9 +55,5 @@ public class Computador {
 
     public float getPreco() {
         return preco;
-    }
-
-    public String getMarca() {
-        return marca;
     }
 }

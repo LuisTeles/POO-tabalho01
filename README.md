@@ -1,6 +1,8 @@
 Luis Antonio Ribeiro Tels 
 GEC-2223
 
+Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (para implementação final do projeto)] foram para corrigir problemas gerados pela implementação de código da LLM que se resumiram ao tipo de Relacionamentos errado entre Computadores e Hardware
+
 # LLMs utilizadas:
     Google Gemini (fast e pro 3.1)
     Claude Sonnet 4.5 (para implementação final do projeto)
@@ -312,3 +314,12 @@ GEC-2223
     - Método utilitário ProcessarPedido implementado corretamente como static
 
 
+
+
+# Fontes:
+    https://www.w3schools.com/java/java_arrays.asp
+    https://www.w3schools.com/java/java_constructors.asp
+    https://www.w3schools.com/java/java_user_input.asp
+    https://www.youtube.com/watch?v=rDidOn6KN9k&t=67s
+    https://stackoverflow.com/questions/10490344/how-to-get-out-of-while-loop-in-java-with-scanner-method-hasnext-as-condition
+    https://www.geeksforgeeks.org/java/system-out-println-in-java/
