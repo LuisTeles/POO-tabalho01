@@ -1,3 +1,5 @@
+package br.inatel.pcmania;
+
 public class Computador {
     private String marca ;
     private float preco;

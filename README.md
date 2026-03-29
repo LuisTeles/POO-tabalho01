@@ -2,7 +2,6 @@ Luis Antonio Ribeiro Tels
 GEC-2223
 
 # LLMs utilizadas:
-    GitHub Copilot(auto)
     Google Gemini (fast e pro 3.1)
     Claude Sonnet 4.5 (para implementação final do projeto)
 

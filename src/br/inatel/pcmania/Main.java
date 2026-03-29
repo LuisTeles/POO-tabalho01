@@ -1,3 +1,5 @@
+package br.inatel.pcmania;
+
 import java.util.Scanner;
 
 public class Main {
