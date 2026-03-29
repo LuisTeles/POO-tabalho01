@@ -4,6 +4,7 @@ GEC-2223
 # LLMs utilizadas:
     GitHub Copilot(auto)
     Google Gemini (fast e pro 3.1)
+    Claude Sonnet 4.5 (para implementação final do projeto)
 
 # Prompt 01: dúvida sobre agregação
     
@@ -265,5 +266,50 @@ GEC-2223
     
     Gostaria que eu montasse um exemplo de classe `Main` completa que integre a criação do cliente, a agregação da Memória USB e a chamada desse seu novo método utilitário?
     ```
+
+# Prompt 04: Implementação completa do projeto PCMania
+    
+    ## Descrição da tarefa
+    
+    Solicitei ao Claude Sonnet 4.5 para implementar as correções necessárias para completar o projeto PCMania conforme especificações do PDF.
+    
+    ## Prompt
+    
+    ```
+    @/c/Users/devzl/Downloads/C06_POO_PCMania.pdf implemente the necessary changes to complete the project
+    ```
+    
+    ## Output
+    
+    O Claude Sonnet 4.5 analisou o PDF e implementou com sucesso:
+    
+    1. **Correção da classe Cliente**: Resolveu inconsistências entre `computador` e `computadores`, adicionou método `adicionarComputador()` e contador `totalComputadores`
+    
+    2. **Implementação completa do método mostraPCConfigs()**: Criou exibição formatada das configurações do PC incluindo marca, preço, hardware, sistema operacional e memória USB
+    
+    3. **Adição de getters necessários**: Implementou apenas os getters essenciais em todas as classes (HardwareBasico, SistemaOperacional, MemoriaUSB, Computador, Cliente) conforme exigido
+    
+    4. **Correção do método main()**: Alterou de `static void main()` para `public static void main(String[] args)`
+    
+    5. **Criação das 3 promoções**: Implementou corretamente as três configurações:
+       - Promoção 1 (Apple): Core i3 2200MHz, 8GB RAM, 500GB HD, macOS Sequoia 64 bits, Pen-drive 16GB - R$ 2223
+       - Promoção 2 (Samsung): Core i5 3370MHz, 16GB RAM, 1TB HD, Windows 8 64 bits, Pen-drive 32GB - R$ 3457
+       - Promoção 3 (Dell): Core i7 4500MHz, 32GB RAM, 2TB HD, Windows 10 64 bits, HD Externo 1TB - R$ 7901
+    
+    6. **Sistema de compras funcional**: Implementou interface de usuário que permite adicionar múltiplos PCs ao carrinho, com exibição final de todas informações do cliente, PCs adquiridos e total da compra
+    
+    7. **Melhorias na classe ProcessarPedido**: Aprimorou a validação para verificar se há realmente computadores no array antes de processar
+    
+    ## Resultado
+    
+    ✅ **Satisfatório** - Todas as especificações do projeto foram atendidas:
+    - Código compila sem erros
+    - Sistema funciona corretamente com as 3 promoções
+    - Todos os atributos são privados
+    - Apenas getters necessários foram criados
+    - Relacionamentos de composição e agregação implementados corretamente
+    - Interface de usuário intuitiva e funcional
+    - Cálculo de total da compra funcionando
+    - Método utilitário ProcessarPedido implementado corretamente como static
 
 
