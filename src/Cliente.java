@@ -4,6 +4,10 @@ public class Cliente {
     //Arrays de computados associa o usuário com computadores.
     private Computador[] computador;
 
+    public Computador[] getComputador() {
+        return computador;
+    }
+
     public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
