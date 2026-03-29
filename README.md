@@ -1,7 +1,7 @@
 # PCMania — Projeto POO
 
 **Autor:** Luis Antonio Ribeiro Teles
-**Turma:** GEC-2223
+**Matricula:** GEC-2223
 
 > **Nota:** Todos os commits após o commit `release: v1` (Prompt 4 — Claude Sonnet 4.5) foram para corrigir problemas gerados pela implementação da LLM, que criou o tipo de relacionamento errado entre `Computador` e `Hardware`.
 
