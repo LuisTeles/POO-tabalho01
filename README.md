@@ -1,13 +1,13 @@
 Luis Antonio Ribeiro Tels 
 GEC-2223
 
-Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (para implementação final do projeto)] foram para corrigir problemas gerados pela implementação de código da LLM que se resumiram ao tipo de Relacionamentos errado entre Computadores e Hardware
+Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (para implementação final do projeto)] foram para corrigir problemas gerados pela implementação de código da LLM que se resumiram ao tipo de relacionamentos errado entre computador e hardware
 
 # LLMs utilizadas:
     Google Gemini (fast e pro 3.1)
     Claude Sonnet 4.5 (para implementação final do projeto)
 
-# Prompt 01: dúvida sobre agregação
+# Prompt 01: dúvida sobre agregação (Retirou minha dúvida parcialmente)
     
     ## Descrição da tarefa
     
@@ -20,7 +20,7 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     ```
     Se você fosse explicar o passo a passo de como criar a agregação, como escreveria?
     
-    Escrever que primeiramente crio uma instância de memória USB e depois faço a agregação usando musb como parâmetro de referência está incorreto?
+    Escrever que, primeiramente, crio uma instância de memória USB e, depois, faço a agregação usando musb como parâmetro de referência está incorreto?
     ```
     
     ## Output
@@ -78,7 +78,7 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     
     ---
     
-    ### Exemplo de Checklist para você seguir:
+    ### Exemplo de checklist para você seguir:
     
     - [ ] Tenho uma classe para o **Todo** e uma para a **Parte**?
         
@@ -96,10 +96,10 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     Gostaria que eu montasse um exemplo de como seria esse mesmo passo a passo, mas para o relacionamento de **Composição** (onde o PC é quem fabrica a própria memória)?
     ```
 
-# Prompt 02: duvida sobre while loop em java
+# Prompt 02: dúvida sobre while loop em Java (Retirou minha dúvida) 
     ## Descrição da tarefa
     
-    Neste caso eu queria fazer um while loop usando Scanner similar ao usado em c++
+    Neste caso eu queria fazer um while loop usando Scanner similar ao usado em C++
     
     ## Prompt
     
@@ -168,7 +168,7 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     **Gostaria que eu montasse um exemplo de como tratar erros de digitação (letras no lugar de números) para tornar esse loop à prova de falhas?**
     ```
 
-# Prompt 03: dúvida sobre o método utilitário
+# Prompt 03: dúvida sobre o método utilitário (Retirou minha dúvida) 
         
     ## Task Description
     
@@ -268,7 +268,7 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     Gostaria que eu montasse um exemplo de classe `Main` completa que integre a criação do cliente, a agregação da Memória USB e a chamada desse seu novo método utilitário?
     ```
 
-# Prompt 04: Implementação completa do projeto PCMania
+# Prompt 04: Implementação completa do projeto PCMania (A estrutura do projeto estava criada no momento do prompt mesmo assim a LLM não entendeu o relacionamento entre classes corretamente e acabou criando o código errado que foi corrigido (EU ACHO))
     
     ## Descrição da tarefa
     
@@ -277,7 +277,7 @@ Todos os commits depois do commit "release: v1" [(Prompt 4)Claude Sonnet 4.5 (pa
     ## Prompt
     
     ```
-    @/c/Users/devzl/Downloads/C06_POO_PCMania.pdf implemente the necessary changes to complete the project
+    @/c/Users/devzl/Downloads/C06_POO_PCMania.pdf implement the necessary changes to complete the project
     ```
     
     ## Output
