@@ -9,7 +9,7 @@ public class Main {
         int option = -1;
         Cliente cliente01 = new Cliente("Luis Antonio Ribeiro Teles", "123.456.789-00");
 
-        Computador promo1 = new Computador("Apple", matricula, "macOs Seqoia", 64, 2200, 8, 500);
+        Computador promo1 = new Computador("Apple", matricula, "macOS Sequoia", 64, 2200, 8, 500);
         MemoriaUSB usbPromo1 = new MemoriaUSB("Pen-drive", 16);
         promo1.addMemoriaUSB(usbPromo1);
 
